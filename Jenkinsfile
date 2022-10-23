@@ -5,11 +5,9 @@ pipeline {
       ENV_URL = "pipeline.google.com"
     }
     stages {
+
         stage('Zero') {
             steps {
-                ansiColor('xterm') {
-                    // some block
-                }
                 echo 'Zero'
                 sh '''echo vai
                 echo love'''
